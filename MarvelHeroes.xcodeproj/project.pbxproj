@@ -274,10 +274,7 @@
 				7B9F42F02058EE120032DEE3 /* AppDelegate.swift */,
 				7B86C12E205A50D200AFF359 /* Classes */,
 				7B367061205E0F6400663779 /* Utils */,
-				7B9F430C205914400032DEE3 /* MarvelHeroes-Bridging-Header.h */,
-				7B9F42F72058EE120032DEE3 /* Assets.xcassets */,
-				7B9F42F92058EE120032DEE3 /* LaunchScreen.storyboard */,
-				7B9F42FC2058EE120032DEE3 /* Info.plist */,
+				7BF30792205E625600413C4D /* Supporting Files */,
 			);
 			path = MarvelHeroes;
 			sourceTree = "<group>";
@@ -290,6 +287,17 @@
 				7BD8117D205BBCBA00E236BC /* MHHeroDetailTableHeadView.swift */,
 			);
 			path = HeroDetailView;
+			sourceTree = "<group>";
+		};
+		7BF30792205E625600413C4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B9F430C205914400032DEE3 /* MarvelHeroes-Bridging-Header.h */,
+				7B9F42F72058EE120032DEE3 /* Assets.xcassets */,
+				7B9F42F92058EE120032DEE3 /* LaunchScreen.storyboard */,
+				7B9F42FC2058EE120032DEE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

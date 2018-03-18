@@ -12,3 +12,6 @@ MarvelHeros implementation features
 * ...
 
 
+Other
+========================
+because I don't have enough time , so some utils in the project only encapsulate the necessary functions, so there are many deficiencies...

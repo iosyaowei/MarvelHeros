@@ -33,3 +33,41 @@ class MarvelHeroesTests: XCTestCase {
     }
     
 }
+
+extension MarvelHeroesTests {
+    func testGETRequest() {
+        let expectation = self.expectation(description: "GET Test")
+        
+        let URLStr = MN_SERVER_URL + "public/characters"
+        let params = ["limit" : 20, "offset": 0]
+        MHNetworkManager.shared.get(URLStr: URLStr, params: params) { (data, code, isSuccess) in
+            expectation.fulfill()
+            
+            XCTAssertTrue(isSuccess, "request error")
+            XCTAssertEqual(code, 200, "HTTP response status code should be 200")
+            XCTAssertNotNil(data, "返回数据不应非 nil")
+        }
+        
+        self.waitForExpectations(timeout: 10) { (error) in
+            // Do something when time out
+            XCTAssertNil(error, (error?.localizedDescription)!)
+        }
+    }
+    
+    func testDownloadRequest() {
+        let expectation = self.expectation(description: "Download Test")
+        
+        let URLStr = "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg"
+        MHNetworkManager.shared.downloadImage(URLStr: URLStr) { (data, isSuccess) in
+            expectation.fulfill()
+            
+            XCTAssertNotNil(data, "返回数据不应非 nil")
+            XCTAssertTrue(isSuccess, "request error")
+        }
+        
+        self.waitForExpectations(timeout: 20) { (error) in
+            // Do something when time out
+            XCTAssertNil(error, (error?.localizedDescription)!)
+        }
+    }
+}

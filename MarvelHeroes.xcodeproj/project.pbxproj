@@ -26,7 +26,7 @@
 		7B367070205E12DD00663779 /* MHNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F43042058F3440032DEE3 /* MHNetworkManager.swift */; };
 		7B367071205E12DD00663779 /* MHNetworkManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D48FF205A0D1800F060F9 /* MHNetworkManager+Extension.swift */; };
 		7B367072205E12DD00663779 /* MHCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26D0205D752A00B237ED /* MHCoreDataManager.swift */; };
-		7B367073205E12DD00663779 /* MarvelHeroesCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9BC6E205BC6510095BD51 /* MarvelHeroesCoreData.xcdatamodeld */; };
+		7B367073205E12DD00663779 /* MarvelHerosCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9BC6E205BC6510095BD51 /* MarvelHerosCoreData.xcdatamodeld */; };
 		7B367074205E12DD00663779 /* MHLikeHero+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26C7205D194900B237ED /* MHLikeHero+CoreDataClass.swift */; };
 		7B367075205E12DD00663779 /* MHLikeHero+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26C8205D194900B237ED /* MHLikeHero+CoreDataProperties.swift */; };
 		7B367076205E12DD00663779 /* MNCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F430A205912F20032DEE3 /* MNCommon.swift */; };
@@ -47,7 +47,7 @@
 		7B367085205E130100663779 /* MHNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F43042058F3440032DEE3 /* MHNetworkManager.swift */; };
 		7B367086205E130100663779 /* MHNetworkManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D48FF205A0D1800F060F9 /* MHNetworkManager+Extension.swift */; };
 		7B367087205E130100663779 /* MHCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26D0205D752A00B237ED /* MHCoreDataManager.swift */; };
-		7B367088205E130100663779 /* MarvelHeroesCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9BC6E205BC6510095BD51 /* MarvelHeroesCoreData.xcdatamodeld */; };
+		7B367088205E130100663779 /* MarvelHerosCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9BC6E205BC6510095BD51 /* MarvelHerosCoreData.xcdatamodeld */; };
 		7B367089205E130100663779 /* MHLikeHero+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26C7205D194900B237ED /* MHLikeHero+CoreDataClass.swift */; };
 		7B36708A205E130100663779 /* MHLikeHero+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26C8205D194900B237ED /* MHLikeHero+CoreDataProperties.swift */; };
 		7B36708B205E130100663779 /* MNCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F430A205912F20032DEE3 /* MNCommon.swift */; };
@@ -68,7 +68,7 @@
 		7B9F4307205906B20032DEE3 /* MHStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F4306205906B20032DEE3 /* MHStatus.swift */; };
 		7B9F4309205912610032DEE3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F4308205912600032DEE3 /* Extension.swift */; };
 		7B9F430B205912F20032DEE3 /* MNCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F430A205912F20032DEE3 /* MNCommon.swift */; };
-		7BC9BC70205BC6510095BD51 /* MarvelHeroesCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9BC6E205BC6510095BD51 /* MarvelHeroesCoreData.xcdatamodeld */; };
+		7BC9BC70205BC6510095BD51 /* MarvelHerosCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9BC6E205BC6510095BD51 /* MarvelHerosCoreData.xcdatamodeld */; };
 		7BD81178205B5D9C00E236BC /* MHHeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD81177205B5D9C00E236BC /* MHHeroDetailViewController.swift */; };
 		7BD8117A205B904200E236BC /* MHHeroDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD81179205B904200E236BC /* MHHeroDetailTableViewCell.swift */; };
 		7BD8117C205B962E00E236BC /* MHHeroDetailSectionHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8117B205B962E00E236BC /* MHHeroDetailSectionHeadView.swift */; };
@@ -215,7 +215,7 @@
 		7B367062205E0FBF00663779 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				7BC9BC6E205BC6510095BD51 /* MarvelHeroesCoreData.xcdatamodeld */,
+				7BC9BC6E205BC6510095BD51 /* MarvelHerosCoreData.xcdatamodeld */,
 				7B9C26C7205D194900B237ED /* MHLikeHero+CoreDataClass.swift */,
 				7B9C26C8205D194900B237ED /* MHLikeHero+CoreDataProperties.swift */,
 			);
@@ -456,7 +456,7 @@
 				7B367070205E12DD00663779 /* MHNetworkManager.swift in Sources */,
 				7B367071205E12DD00663779 /* MHNetworkManager+Extension.swift in Sources */,
 				7B367072205E12DD00663779 /* MHCoreDataManager.swift in Sources */,
-				7B367073205E12DD00663779 /* MarvelHeroesCoreData.xcdatamodeld in Sources */,
+				7B367073205E12DD00663779 /* MarvelHerosCoreData.xcdatamodeld in Sources */,
 				7B367074205E12DD00663779 /* MHLikeHero+CoreDataClass.swift in Sources */,
 				7B367075205E12DD00663779 /* MHLikeHero+CoreDataProperties.swift in Sources */,
 				7B367076205E12DD00663779 /* MNCommon.swift in Sources */,
@@ -486,7 +486,7 @@
 				7B367085205E130100663779 /* MHNetworkManager.swift in Sources */,
 				7B367086205E130100663779 /* MHNetworkManager+Extension.swift in Sources */,
 				7B367087205E130100663779 /* MHCoreDataManager.swift in Sources */,
-				7B367088205E130100663779 /* MarvelHeroesCoreData.xcdatamodeld in Sources */,
+				7B367088205E130100663779 /* MarvelHerosCoreData.xcdatamodeld in Sources */,
 				7B367089205E130100663779 /* MHLikeHero+CoreDataClass.swift in Sources */,
 				7B36708A205E130100663779 /* MHLikeHero+CoreDataProperties.swift in Sources */,
 				7B36708B205E130100663779 /* MNCommon.swift in Sources */,
@@ -513,7 +513,7 @@
 				7B9F42F32058EE120032DEE3 /* MHHeroListViewController.swift in Sources */,
 				7B9F430B205912F20032DEE3 /* MNCommon.swift in Sources */,
 				7B362FC7205A40DD006D51A7 /* MHImageCacheManager.swift in Sources */,
-				7BC9BC70205BC6510095BD51 /* MarvelHeroesCoreData.xcdatamodeld in Sources */,
+				7BC9BC70205BC6510095BD51 /* MarvelHerosCoreData.xcdatamodeld in Sources */,
 				7B9C26D1205D752A00B237ED /* MHCoreDataManager.swift in Sources */,
 				7B9C26CA205D194900B237ED /* MHLikeHero+CoreDataProperties.swift in Sources */,
 				7BD8117C205B962E00E236BC /* MHHeroDetailSectionHeadView.swift in Sources */,
@@ -799,13 +799,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7BC9BC6E205BC6510095BD51 /* MarvelHeroesCoreData.xcdatamodeld */ = {
+		7BC9BC6E205BC6510095BD51 /* MarvelHerosCoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				7BC9BC6F205BC6510095BD51 /* MarvelHeroesCoreData.xcdatamodel */,
 			);
 			currentVersion = 7BC9BC6F205BC6510095BD51 /* MarvelHeroesCoreData.xcdatamodel */;
-			path = MarvelHeroesCoreData.xcdatamodeld;
+			path = MarvelHerosCoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

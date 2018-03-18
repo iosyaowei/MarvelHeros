@@ -37,7 +37,6 @@ class MarvelHeroesUITests: XCTestCase {
 
 extension MarvelHeroesUITests {
     func testLikeOrDislikeHero() {
-        
         let app = XCUIApplication()
         let window = app.windows.element(boundBy: 0)
         

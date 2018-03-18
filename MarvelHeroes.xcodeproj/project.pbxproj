@@ -74,6 +74,8 @@
 		7BD8117C205B962E00E236BC /* MHHeroDetailSectionHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8117B205B962E00E236BC /* MHHeroDetailSectionHeadView.swift */; };
 		7BD8117E205BBCBA00E236BC /* MHHeroDetailTableHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8117D205BBCBA00E236BC /* MHHeroDetailTableHeadView.swift */; };
 		7BF30798205E6AA000413C4D /* MHCustomPushAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF30797205E6AA000413C4D /* MHCustomPushAnimation.swift */; };
+		7BF30799205E71C500413C4D /* MHCustomPushAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF30797205E6AA000413C4D /* MHCustomPushAnimation.swift */; };
+		7BF3079A205E71CC00413C4D /* MHCustomPushAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF30797205E6AA000413C4D /* MHCustomPushAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -438,6 +440,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF3079A205E71CC00413C4D /* MHCustomPushAnimation.swift in Sources */,
 				7B367064205E12DD00663779 /* AppDelegate.swift in Sources */,
 				7B367065205E12DD00663779 /* MHHeroListViewController.swift in Sources */,
 				7B367066205E12DD00663779 /* MHLikeHeroListViewController.swift in Sources */,
@@ -467,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF30799205E71C500413C4D /* MHCustomPushAnimation.swift in Sources */,
 				7B367079205E130100663779 /* AppDelegate.swift in Sources */,
 				7B36707A205E130100663779 /* MHHeroListViewController.swift in Sources */,
 				7B36707B205E130100663779 /* MHLikeHeroListViewController.swift in Sources */,

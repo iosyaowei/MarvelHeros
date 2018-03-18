@@ -24,6 +24,9 @@ class MHHeroDetailTableHeadView: UIView {
         btn.setImage(UIImage(named: "detail_like"), for: .normal)
         btn.setImage(UIImage(named: "detail_like_selected"), for: .selected)
         btn.addTarget(self, action: #selector(likeBtnAction(btn:)), for: .touchUpInside)
+        btn.isAccessibilityElement = true
+        btn.accessibilityIdentifier = "HeroLikeBtn"
+        btn.accessibilityLabel = "HeroLikeBtn"
         return btn
     }()
     

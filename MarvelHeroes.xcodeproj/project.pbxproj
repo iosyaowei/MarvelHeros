@@ -26,7 +26,6 @@
 		7B367070205E12DD00663779 /* MHNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F43042058F3440032DEE3 /* MHNetworkManager.swift */; };
 		7B367071205E12DD00663779 /* MHNetworkManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D48FF205A0D1800F060F9 /* MHNetworkManager+Extension.swift */; };
 		7B367072205E12DD00663779 /* MHCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26D0205D752A00B237ED /* MHCoreDataManager.swift */; };
-		7B367073205E12DD00663779 /* MarvelHerosCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9BC6E205BC6510095BD51 /* MarvelHerosCoreData.xcdatamodeld */; };
 		7B367074205E12DD00663779 /* MHLikeHero+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26C7205D194900B237ED /* MHLikeHero+CoreDataClass.swift */; };
 		7B367075205E12DD00663779 /* MHLikeHero+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26C8205D194900B237ED /* MHLikeHero+CoreDataProperties.swift */; };
 		7B367076205E12DD00663779 /* MNCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F430A205912F20032DEE3 /* MNCommon.swift */; };
@@ -47,7 +46,6 @@
 		7B367085205E130100663779 /* MHNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F43042058F3440032DEE3 /* MHNetworkManager.swift */; };
 		7B367086205E130100663779 /* MHNetworkManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D48FF205A0D1800F060F9 /* MHNetworkManager+Extension.swift */; };
 		7B367087205E130100663779 /* MHCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26D0205D752A00B237ED /* MHCoreDataManager.swift */; };
-		7B367088205E130100663779 /* MarvelHerosCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9BC6E205BC6510095BD51 /* MarvelHerosCoreData.xcdatamodeld */; };
 		7B367089205E130100663779 /* MHLikeHero+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26C7205D194900B237ED /* MHLikeHero+CoreDataClass.swift */; };
 		7B36708A205E130100663779 /* MHLikeHero+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26C8205D194900B237ED /* MHLikeHero+CoreDataProperties.swift */; };
 		7B36708B205E130100663779 /* MNCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F430A205912F20032DEE3 /* MNCommon.swift */; };
@@ -76,6 +74,8 @@
 		7BF30798205E6AA000413C4D /* MHCustomPushAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF30797205E6AA000413C4D /* MHCustomPushAnimation.swift */; };
 		7BF30799205E71C500413C4D /* MHCustomPushAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF30797205E6AA000413C4D /* MHCustomPushAnimation.swift */; };
 		7BF3079A205E71CC00413C4D /* MHCustomPushAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF30797205E6AA000413C4D /* MHCustomPushAnimation.swift */; };
+		7BF3079B205E75AA00413C4D /* MarvelHerosCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9BC6E205BC6510095BD51 /* MarvelHerosCoreData.xcdatamodeld */; };
+		7BF3079C205E75AB00413C4D /* MarvelHerosCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9BC6E205BC6510095BD51 /* MarvelHerosCoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -442,6 +442,7 @@
 			files = (
 				7BF3079A205E71CC00413C4D /* MHCustomPushAnimation.swift in Sources */,
 				7B367064205E12DD00663779 /* AppDelegate.swift in Sources */,
+				7BF3079B205E75AA00413C4D /* MarvelHerosCoreData.xcdatamodeld in Sources */,
 				7B367065205E12DD00663779 /* MHHeroListViewController.swift in Sources */,
 				7B367066205E12DD00663779 /* MHLikeHeroListViewController.swift in Sources */,
 				7B367067205E12DD00663779 /* MHHeroDetailViewController.swift in Sources */,
@@ -456,7 +457,6 @@
 				7B367070205E12DD00663779 /* MHNetworkManager.swift in Sources */,
 				7B367071205E12DD00663779 /* MHNetworkManager+Extension.swift in Sources */,
 				7B367072205E12DD00663779 /* MHCoreDataManager.swift in Sources */,
-				7B367073205E12DD00663779 /* MarvelHerosCoreData.xcdatamodeld in Sources */,
 				7B367074205E12DD00663779 /* MHLikeHero+CoreDataClass.swift in Sources */,
 				7B367075205E12DD00663779 /* MHLikeHero+CoreDataProperties.swift in Sources */,
 				7B367076205E12DD00663779 /* MNCommon.swift in Sources */,
@@ -472,6 +472,7 @@
 			files = (
 				7BF30799205E71C500413C4D /* MHCustomPushAnimation.swift in Sources */,
 				7B367079205E130100663779 /* AppDelegate.swift in Sources */,
+				7BF3079C205E75AB00413C4D /* MarvelHerosCoreData.xcdatamodeld in Sources */,
 				7B36707A205E130100663779 /* MHHeroListViewController.swift in Sources */,
 				7B36707B205E130100663779 /* MHLikeHeroListViewController.swift in Sources */,
 				7B36707C205E130100663779 /* MHHeroDetailViewController.swift in Sources */,
@@ -486,7 +487,6 @@
 				7B367085205E130100663779 /* MHNetworkManager.swift in Sources */,
 				7B367086205E130100663779 /* MHNetworkManager+Extension.swift in Sources */,
 				7B367087205E130100663779 /* MHCoreDataManager.swift in Sources */,
-				7B367088205E130100663779 /* MarvelHerosCoreData.xcdatamodeld in Sources */,
 				7B367089205E130100663779 /* MHLikeHero+CoreDataClass.swift in Sources */,
 				7B36708A205E130100663779 /* MHLikeHero+CoreDataProperties.swift in Sources */,
 				7B36708B205E130100663779 /* MNCommon.swift in Sources */,

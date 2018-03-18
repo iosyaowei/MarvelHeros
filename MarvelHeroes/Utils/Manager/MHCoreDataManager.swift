@@ -22,7 +22,15 @@ class MHCoreDataManager {
     }()
     
     lazy var persistentContainer: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "MarvelHerosCoreData")
+        guard let modelURL = Bundle(for: type(of: self)).url(forResource: "MarvelHerosCoreData", withExtension:"momd") else {
+            fatalError("Error loading model from bundle")
+        }
+        
+        guard let mom = NSManagedObjectModel(contentsOf: modelURL) else {
+            fatalError("Error initializing mom from: \(modelURL)")
+        }
+        
+        let container = NSPersistentContainer(name: "MarvelHerosCoreData", managedObjectModel: mom)
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 fatalError("Unresolved error \(error), \(error.userInfo)")

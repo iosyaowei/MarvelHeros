@@ -49,7 +49,6 @@ extension MarvelHeroesTests {
         }
         
         self.waitForExpectations(timeout: 10) { (error) in
-            // Do something when time out
             XCTAssertNil(error, (error?.localizedDescription)!)
         }
     }
@@ -66,8 +65,9 @@ extension MarvelHeroesTests {
         }
         
         self.waitForExpectations(timeout: 20) { (error) in
-            // Do something when time out
             XCTAssertNil(error, (error?.localizedDescription)!)
         }
     }
+    
 }
+

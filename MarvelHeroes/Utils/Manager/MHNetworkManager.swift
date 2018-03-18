@@ -69,8 +69,8 @@ extension MHNetworkManager {
                 print("fail with error:\(String(describing: error.localizedDescription))")
             }
         }) { (error, response) in
+            TCLog("fail with error:\(String(describing: error?.localizedDescription))")
             completion(nil, response!.statusCode, false)
-            print("fail with error:\(String(describing: error?.localizedDescription))")
         }
         
         dataTask.resume()

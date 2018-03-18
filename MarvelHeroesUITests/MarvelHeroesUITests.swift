@@ -9,7 +9,7 @@
 import XCTest
 
 class MarvelHeroesUITests: XCTestCase {
-        
+    
     override func setUp() {
         super.setUp()
         
@@ -19,7 +19,7 @@ class MarvelHeroesUITests: XCTestCase {
         continueAfterFailure = false
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
         XCUIApplication().launch()
-
+        
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
     
@@ -35,20 +35,3 @@ class MarvelHeroesUITests: XCTestCase {
     
 }
 
-extension MarvelHeroesUITests {
-    func testLikeHero() {
-        
-        let app = XCUIApplication()
-        app.collectionViews.cells.otherElements.containing(.staticText, identifier:"A.I.M.").element.tap()
-        
-        let heroId = 1009144
-        let beforeLikeStatus = !MHCoreDataManager.shared.selectLikeHeroData(heroId: heroId).isEmpty
-        
-        let detailLikeButton = app.tables.buttons["detail like"]
-        detailLikeButton.tap()
-        
-        let currentLikeStatus = !MHCoreDataManager.shared.selectLikeHeroData(heroId: heroId).isEmpty
-        XCTAssertEqual(beforeLikeStatus, !currentLikeStatus, "Like status no change")
-        
-    }
-}

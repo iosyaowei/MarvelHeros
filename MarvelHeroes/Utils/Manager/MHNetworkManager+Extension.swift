@@ -20,7 +20,9 @@ extension MHNetworkManager {
         var params = ["limit" : 20, "offset": offset] as [String: Any]
         if let name = name { params["nameStartsWith"] = name }
         MHNetworkManager.shared.get(URLStr: URLStr, params: params) { (data, code, isSuccess) in
-            completion(data, code, isSuccess)
+            if isSuccess {
+                completion(data, code, true)
+            }
         }
     }
     
@@ -33,7 +35,9 @@ extension MHNetworkManager {
         let URLStr = MN_SERVER_URL + "public/characters/\(characterId)/comics"
         let params = ["limit" : 3, "offset": 0]
         MHNetworkManager.shared.get(URLStr: URLStr, params: params, isShowLoading: false) { (data, code, isSuccess) in
-            completion(data, code, isSuccess)
+            if isSuccess {
+                completion(data, code, true)
+            }
         }
     }
     
@@ -46,7 +50,9 @@ extension MHNetworkManager {
         let URLStr = MN_SERVER_URL + "public/characters/\(characterId)/events"
         let params = ["limit" : 3, "offset": 0]
         MHNetworkManager.shared.get(URLStr: URLStr, params: params, isShowLoading: false) { (data, code, isSuccess) in
-            completion(data, code, isSuccess)
+            if isSuccess {
+                completion(data, code, true)
+            }
         }
     }
     
@@ -59,7 +65,9 @@ extension MHNetworkManager {
         let URLStr = MN_SERVER_URL + "public/characters/\(characterId)/series"
         let params = ["limit" : 3, "offset": 0]
         MHNetworkManager.shared.get(URLStr: URLStr, params: params, isShowLoading: false) { (data, code, isSuccess) in
-            completion(data, code, isSuccess)
+            if isSuccess {
+                completion(data, code, true)
+            }
         }
     }
     
@@ -72,7 +80,9 @@ extension MHNetworkManager {
         let URLStr = MN_SERVER_URL + "public/characters/\(characterId)/stories"
         let params = ["limit" : 3, "offset": 0]
         MHNetworkManager.shared.get(URLStr: URLStr, params: params, isShowLoading: false) { (data, code, isSuccess) in
-            completion(data, code, isSuccess)
+            if isSuccess {
+                completion(data, code, true)
+            }
         }
     }
 }

@@ -48,6 +48,7 @@ class MHHeroListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Hero List"
+        navigationController?.delegate = self
         setupUI()
         loadData()
     }

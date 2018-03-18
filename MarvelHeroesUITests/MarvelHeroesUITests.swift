@@ -31,7 +31,24 @@ class MarvelHeroesUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let vc = MHHeroListViewController()
     }
     
+}
+
+extension MarvelHeroesUITests {
+    func testLikeHero() {
+        
+        let app = XCUIApplication()
+        app.collectionViews.cells.otherElements.containing(.staticText, identifier:"A.I.M.").element.tap()
+        
+        let heroId = 1009144
+        let beforeLikeStatus = !MHCoreDataManager.shared.selectLikeHeroData(heroId: heroId).isEmpty
+        
+        let detailLikeButton = app.tables.buttons["detail like"]
+        detailLikeButton.tap()
+        
+        let currentLikeStatus = !MHCoreDataManager.shared.selectLikeHeroData(heroId: heroId).isEmpty
+        XCTAssertEqual(beforeLikeStatus, !currentLikeStatus, "Like status no change")
+        
+    }
 }

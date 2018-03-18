@@ -73,6 +73,7 @@
 		7BD8117A205B904200E236BC /* MHHeroDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD81179205B904200E236BC /* MHHeroDetailTableViewCell.swift */; };
 		7BD8117C205B962E00E236BC /* MHHeroDetailSectionHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8117B205B962E00E236BC /* MHHeroDetailSectionHeadView.swift */; };
 		7BD8117E205BBCBA00E236BC /* MHHeroDetailTableHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8117D205BBCBA00E236BC /* MHHeroDetailTableHeadView.swift */; };
+		7BF30798205E6AA000413C4D /* MHCustomPushAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF30797205E6AA000413C4D /* MHCustomPushAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		7BD81179205B904200E236BC /* MHHeroDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHHeroDetailTableViewCell.swift; sourceTree = "<group>"; };
 		7BD8117B205B962E00E236BC /* MHHeroDetailSectionHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHHeroDetailSectionHeadView.swift; sourceTree = "<group>"; };
 		7BD8117D205BBCBA00E236BC /* MHHeroDetailTableHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHHeroDetailTableHeadView.swift; sourceTree = "<group>"; };
+		7BF30797205E6AA000413C4D /* MHCustomPushAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHCustomPushAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 				7B367062205E0FBF00663779 /* CoreData */,
 				7B9F430A205912F20032DEE3 /* MNCommon.swift */,
 				7B9F4308205912600032DEE3 /* Extension.swift */,
+				7BF30797205E6AA000413C4D /* MHCustomPushAnimation.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -493,6 +496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF30798205E6AA000413C4D /* MHCustomPushAnimation.swift in Sources */,
 				7B6D4900205A0D1800F060F9 /* MHNetworkManager+Extension.swift in Sources */,
 				7B9C26CF205D4ED700B237ED /* MHSearchSectionReusableView.swift in Sources */,
 				7B9F4309205912610032DEE3 /* Extension.swift in Sources */,
@@ -552,6 +556,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devyao.MarvelHeroesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarvelHeroes/MarvelHeroes-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarvelHeroes.app/MarvelHeroes";
@@ -567,6 +572,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devyao.MarvelHeroesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarvelHeroes/MarvelHeroes-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarvelHeroes.app/MarvelHeroes";
@@ -581,6 +587,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devyao.MarvelHeroesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarvelHeroes/MarvelHeroes-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MarvelHeroes;
@@ -595,6 +602,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devyao.MarvelHeroesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarvelHeroes/MarvelHeroes-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MarvelHeroes;

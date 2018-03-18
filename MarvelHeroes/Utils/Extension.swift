@@ -80,7 +80,6 @@ extension UIImageView {
             return
         }
         
-        
         if let data = MHImageCacheManager.readCacheFrom(URLString: URLStr) {
             self.image = UIImage(data: data)
         }else {
@@ -93,5 +92,17 @@ extension UIImageView {
                 }
             })
         }
+    }
+}
+
+extension UIViewController: UINavigationControllerDelegate {
+    public func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        if operation == .push {
+            return MHCustomPushAnimation()
+        }else if operation == .pop {
+            return MHCustomPopAnimation()
+        }
+        
+        return nil
     }
 }

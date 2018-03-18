@@ -9,9 +9,11 @@ MarvelHeros implementation features
 * user can quick search query any hero by name
 * user can add and delete like hero
 * user can see all mark like hero in MHLikeHeroListViewController
+* some features implement Unit tests and UI Tests
 * ...
 
 
 Other
 ========================
+
 because I don't have enough time , so some utils in the project only encapsulate the necessary functions, so there are many deficiencies...

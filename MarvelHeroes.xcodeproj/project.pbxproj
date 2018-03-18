@@ -30,7 +30,6 @@
 		7B367075205E12DD00663779 /* MHLikeHero+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26C8205D194900B237ED /* MHLikeHero+CoreDataProperties.swift */; };
 		7B367076205E12DD00663779 /* MNCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F430A205912F20032DEE3 /* MNCommon.swift */; };
 		7B367077205E12DD00663779 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F4308205912600032DEE3 /* Extension.swift */; };
-		7B367078205E12DD00663779 /* MarvelHeroes-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F430C205914400032DEE3 /* MarvelHeroes-Bridging-Header.h */; };
 		7B367079205E130100663779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F42F02058EE120032DEE3 /* AppDelegate.swift */; };
 		7B36707A205E130100663779 /* MHHeroListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F42F22058EE120032DEE3 /* MHHeroListViewController.swift */; };
 		7B36707B205E130100663779 /* MHLikeHeroListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26CC205D2BBF00B237ED /* MHLikeHeroListViewController.swift */; };
@@ -50,7 +49,6 @@
 		7B36708A205E130100663779 /* MHLikeHero+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26C8205D194900B237ED /* MHLikeHero+CoreDataProperties.swift */; };
 		7B36708B205E130100663779 /* MNCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F430A205912F20032DEE3 /* MNCommon.swift */; };
 		7B36708C205E130100663779 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F4308205912600032DEE3 /* Extension.swift */; };
-		7B36708D205E130100663779 /* MarvelHeroes-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F430C205914400032DEE3 /* MarvelHeroes-Bridging-Header.h */; };
 		7B6D4900205A0D1800F060F9 /* MHNetworkManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D48FF205A0D1800F060F9 /* MHNetworkManager+Extension.swift */; };
 		7B6D4905205A1E1300F060F9 /* MHHeroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D4903205A1E1300F060F9 /* MHHeroCollectionViewCell.swift */; };
 		7B9C26C9205D194900B237ED /* MHLikeHero+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26C7205D194900B237ED /* MHLikeHero+CoreDataClass.swift */; };
@@ -461,7 +459,6 @@
 				7B367075205E12DD00663779 /* MHLikeHero+CoreDataProperties.swift in Sources */,
 				7B367076205E12DD00663779 /* MNCommon.swift in Sources */,
 				7B367077205E12DD00663779 /* Extension.swift in Sources */,
-				7B367078205E12DD00663779 /* MarvelHeroes-Bridging-Header.h in Sources */,
 				7B367049205E075B00663779 /* MarvelHeroesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,7 +488,6 @@
 				7B36708A205E130100663779 /* MHLikeHero+CoreDataProperties.swift in Sources */,
 				7B36708B205E130100663779 /* MNCommon.swift in Sources */,
 				7B36708C205E130100663779 /* Extension.swift in Sources */,
-				7B36708D205E130100663779 /* MarvelHeroes-Bridging-Header.h in Sources */,
 				7B367057205E076F00663779 /* MarvelHeroesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

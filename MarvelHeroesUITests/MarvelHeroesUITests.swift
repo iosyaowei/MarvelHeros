@@ -35,3 +35,27 @@ class MarvelHeroesUITests: XCTestCase {
     
 }
 
+extension MarvelHeroesUITests {
+    func testLikeOrDislikeHero() {
+        
+        let app = XCUIApplication()
+        let window = app.windows.element(boundBy: 0)
+        
+        let delayTime: TimeInterval = 3
+        window.press(forDuration: delayTime)
+        
+        app.collectionViews.children(matching: .cell).element(boundBy: 0).tap()
+        window.press(forDuration: delayTime)
+        
+        let detailLikeButton = app.tables.buttons["LikeHeroIdentifier"]
+        let beforeIsLike = detailLikeButton.isSelected
+        window.press(forDuration: delayTime)
+        
+        detailLikeButton.tap()
+        window.press(forDuration: delayTime)
+        
+        let nowIsLike  = detailLikeButton.isSelected
+        XCTAssertEqual(beforeIsLike, !nowIsLike, "Like status no change")
+    }
+}
+

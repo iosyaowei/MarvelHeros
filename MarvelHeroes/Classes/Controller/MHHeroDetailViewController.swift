@@ -40,6 +40,11 @@ class MHHeroDetailViewController: UIViewController {
         loadData()        
     }
     
+    deinit {
+        TCLog(NSStringFromClass(self.classForCoder) + "--------- deinit")
+    }
+
+    
     func setupUI(){
         if #available(iOS 11.0, *) {
             tableView.contentInsetAdjustmentBehavior = .never

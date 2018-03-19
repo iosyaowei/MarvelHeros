@@ -39,6 +39,11 @@ class MHLikeHeroListViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(loadData), name: .MHLikeHeroListChanged, object: nil)
     }
     
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+        TCLog(NSStringFromClass(self.classForCoder) + "--------- deinit")
+    }
+    
     func setupUI(){
         if #available(iOS 11.0, *) {
             collectonView.contentInsetAdjustmentBehavior = .never
